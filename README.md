@@ -1,4 +1,4 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/l9oc5m5chcvgco3p?svg=true)](https://ci.appveyor.com/project/Alex-m18/ahj-homeworks-sse-ws-report)
+
 
 Правила сдачи задания:
 
