@@ -1,0 +1,33 @@
+{
+  "name": "ahj-online-report-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js",
+    "debug": "node --inspect server.js"
+  },
+  "dependencies": {
+    "forever": "^3.0.4",
+    "http-event-stream": "^0.2.0",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": "^14.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackseliger/AHJ-online-report-backend.git"
+  },
+  "author": "blackseliger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackseliger/AHJ-online-report-backend/issues"
+  },
+  "homepage": "https://github.com/blackseliger/AHJ-online-report-backend#readme"
+}
